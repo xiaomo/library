@@ -10,7 +10,7 @@ alias lstrash=trash-list
 
 #add by yangkang
 export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64"
-export PATH="/home/moming/work/env/depot_tools:$PATH"
+export PATH="/home/moming/work/media/webrtc/depot_tools:$PATH"
 
 export ANDROID_SDK="/home/moming/work/env/adt-bundle-linux-x86_64-20140702/sdk"
 export ANDROID_HOME="$ANDROID_SDK"
@@ -42,4 +42,6 @@ export PATH="~/work/script:$PATH"
 
 echo "backup scipt"
 cp ~/work/script/* ~/work/project/library/shell/
+cp ~/work/media/webrtc/build.sh ~/work/project/library/shell/webrtc-build-android.sh
+
 echo "+++from ~/work/scipt/setup.sh++"
